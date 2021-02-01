@@ -45,5 +45,5 @@ def file_move():
         except FileNotFoundError:
             print("The system could not find the specified path for %s, please check again." % filename)
 
-if __name__ == "__mai__":
+if __name__ == "__main__":
     OScheck()
