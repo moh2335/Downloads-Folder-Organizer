@@ -36,7 +36,7 @@ def file_move():
                 shutil.move(downloads_path + './' + filename, downloads_path + './Images' + './' + filename )
             elif filename.lower().endswith(('.MP4', '.AVI', '.MOV', '.mp4')):
                 shutil.move(downloads_path + './' + filename, downloads_path + './Video' + './' + filename )
-            elif filename.lower().endswith(('.MP3')):
+            elif filename.lower().endswith(('.MP3', '.mp3')):
                 shutil.move(downloads_path + './' + filename, downloads_path + './Audio' + './' + filename )
             elif filename.lower().endswith(('.torrent')):
                 shutil.move(downloads_path + './' + filename, downloads_path + './Torrents' + './' + filename )
