@@ -11,6 +11,8 @@ downloads_path = str(Path.home() / "Downloads")
 def OScheck():
     if platform == "win32":
         nav_folder()
+    else:
+        print("Please run this script on a device running Windows.")
 
 def nav_folder():
     for folder in folders:
